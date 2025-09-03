@@ -323,15 +323,11 @@ DB 스키마 정의서 및 더미데이터는 [여기](https://github.com/be20-1
 * Master 서버: 데이터를 업데이트하는 주체로, 데이터 변경이 일어나면 그 변경 사항이 슬레이브 서버로 복제됩니다
 * Slave 서버: Master 서버의 데이터를 복제하여 읽기 작업만을 수행합니다.
 
+
 #### 
-
- <details><summary>master 서버에서의 업데이트 -> slave 서버 복제 확인</summary>
-    <img src="https://github.com/user-attachments/assets/3a7415fd-817c-4a1f-a6f7-5e4ba7ed2689" alt="master 서버 insert 케이스">
-  </details>
-</details>
-
- <details><summary>slave 서버에서 데이터 변경 시 read only옵션으로 인한 오류 발생</summary>
-    <img src="https://github.com/user-attachments/assets/982aa350-a811-4131-8b71-b26e7e1a1b97" alt="slave 서버 read-only 검증">
+<details><summary>master-slave 연결 확인 및 slave read-only 확인</summary>
+    <img width="371" height="455" alt="마스터 작동 확인" src="https://github.com/user-attachments/assets/95b1df52-6d83-461b-a593-41c2d5b0821c" />
+    <img width="1023" height="470" alt="슬레이브 적용 확인 및 read-only 확인" src="https://github.com/user-attachments/assets/f153426e-cb4e-40b0-9379-2e359ccf5821" />
   </details>
 </details>
 
